@@ -8,12 +8,12 @@
 ## Features
 
 1. **Home Page**:
-   - Designed using HTML and CSS.
+   - Designed using HTML, CSS and JAVASCRIPT.
    - Includes a responsive navigation bar with links to other pages.
    - Informative sections about East Central Railway.
 
 2. **Navigation Bar**:
-   - Links to Home, About, Services, Contact, and Administration pages.
+   - Links to Home, email, Services, Contact, Administration pages and a lot of things.
    - Responsive design for better usability on various devices.
 
 3. **Administration Login Page**:
@@ -41,9 +41,9 @@ project-directory/
 │
 ├── index.html # Home page
 |
-├── about.html # About page
+├── dashboard.html # Dashboard page
 |
-├── services.html # Services page
+├── email.html # Email page
 |
 |
 ├── contact.html # Contact page
@@ -65,9 +65,9 @@ project-directory/
 |
 │ ├── login.php # PHP script for login authentication
 |
-│ ├── add-admin.php # PHP script for adding new administrators
+│ ├── register.php # PHP script for adding new administrators
 |
-│ ├── edit-admin.php # PHP script for editing administrators
+│ ├── register-edit.php # PHP script for editing administrators
 |
 |
 │ └── delete-admin.php # PHP script for deleting administrators
@@ -90,16 +90,16 @@ project-directory/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/east-central-railway.git
-2. **Set Up the Database:
+2. **Set Up the Database**:
 
     .Create a MySQL database.
     .Import the SQL file (db/database.sql) to set up the necessary tables.
    
- 3. **Configure Database Connection:
+ 3. **Configure Database Connection**:
 
       . Update the php/database.php file with your database credentials.
     
- 4. **Run the Server:
+ 4. **Run the Server**:
 
      . Ensure you have a local server setup (like XAMPP or WAMP).
     .Place the project directory in the server's root directory.
@@ -107,15 +107,15 @@ project-directory/
 
    ## Usage
    
- 1. **Navigate the Website:
+ 1. **Navigate the Website**:
 
       . Use the navigation bar to explore different pages.
     
- 2.  **Administration Login:
+ 2.  **Administration Login**:
 
      . Access the login page via the Administration link in the navbar.
    . Enter the credentials to log in.
-4. **Admin Panel:
+4. **Admin Panel**:
 
     . Add, edit, and delete administrators via the admin panel.
     .  All changes are automatically updated in the database.
@@ -125,3 +125,10 @@ project-directory/
   
    .Feel free to fork this project and submit pull requests. 
       For major changes, please open an issue to discuss what you would like to change.
+
+  ## License
+  
+   .This project is open-source and available under the MIT License.
+
+
+ Happy coding!

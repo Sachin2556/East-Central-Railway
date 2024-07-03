@@ -29,3 +29,29 @@ function toggleButtons(language) {
         document.getElementById('hindiBtn').style.display = 'none';
     }
 }
+
+function toggleDivisions() {
+    var divisions = document.querySelectorAll('.division');
+    
+    // Toggle visibility of each division
+    divisions.forEach(function(division) {
+        if (division.style.display === 'none') {
+            division.style.display = 'block';
+        } else {
+            division.style.display = 'none';
+        }
+    });
+}
+
+function openColumns(columnsId) {
+    // Hide all columns
+    var allColumns = document.querySelectorAll('.columns');
+    allColumns.forEach(function(columns) {
+        columns.style.display = 'none';
+    });
+
+    // Show the selected columns
+    var selectedColumns = document.getElementById(columnsId);
+    selectedColumns.style.display = 'block';
+
+}

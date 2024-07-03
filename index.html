@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>East Central Railway</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.png" type="image/xicon" />
 </head>
 <body>
     <header>
-        <h1>East Central Railway</h1>
-        <p>"I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES"</p>
+        <h1 data-lang-en="East Central Railway" data-lang-hi="पूर्व मध्य रेलेवे भारतीय रेल ">East Central Railway</h1>
+        <p data-lang-en=" I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES" 
+         data-lang-hi=" मैं कार्यस्थल या स्थान से बाहर निकलते समय लाइटें और पंखे बंद करने की प्रतिज्ञा करता हूँ">"I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES"</p>
         <!-- <a href="#" class="hindi">हिन्दी</a> -->
         <div class="language-switcher" >
             <button id="englishBtn" style="display: none;" >English</button>
-            <button id="hindiBtn" >Hindi</button>
+            <button id="hindiBtn" >हिन्दी</button>
         </div>
         
        
@@ -21,45 +23,58 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#" data-lang-en="Dashboard" data-lang-hi="होम">Dashboard</a></li>
+            <li><a href="admin_panel/admin/login.php" data-lang-en="Dashboard" data-lang-hi="होम">Dashboard</a></li>
             <li><a href="https://indianrailways.gov.in/railwayboard/" data-lang-en="Rly. Board" data-lang-hi="रैलवे बोर्ड">Rly. Board</a></li>
-            <li><a href="#" data-lang-en="Shared Folder" data-lang-hi="अन्य रेलवे.">Shared Folder</a></li>
+            <li><a href="division.html" onclick="toggleDivisions()" data-lang-en="Division" data-lang-hi="विभाजन">Division </a></li>
             <li><a href="https://ircep.gov.in/IRPSM/" data-lang-en="IRPSM" data-lang-hi="आईआरपीएसएम">IRPSM</a></li>
             <li><a href="https://www.ireps.gov.in/" data-lang-en="IREPS" data-lang-hi="आईआरइपीएस">IREPS</a></li>
             <li><a href="https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,383" data-lang-en="REIS" data-lang-hi="आरईआईएस">REIS</a></li>
             <li><a href="https://indianrailways.gov.in/" data-lang-en="News" data-lang-hi="न्यूज">News</a></li>
             <li><a href="ANOMS.html" data-lang-en="ANOMS" data-lang-hi="गैलेरी">ANOMS</a></li>
-            <li><a href="#" data-lang-en="Press Brief" data-lang-hi="पत्रकारिता विवरण">Press Brief</a></li>
-            <li><a href="#" data-lang-en="E Dak" data-lang-hi="पीएनआर स्टेटस">E Dak</a></li>
-            <li><a href="#" data-lang-en="Contact" data-lang-hi="संपर्क">Contact</a></li>
+            <li><a href="signal.html" data-lang-en="Signal and Telecom" data-lang-hi="सिग्नल और टेलीकॉम">Signal and Telecom</a></li>
+            <li><a href="acheivements.html"  data-lang-en="Achievements " data-lang-hi="उपलब्धि"> Achievements
+                 
+               
+                 
+               
+            </a></li>
+            <li><a href="1482477827727-e Dak System.pdf" data-lang-en="E Dak" data-lang-hi="पीएनआर स्टेटस">E Dak</a></li>
+            <li><a href="1718106353990-Higher Level Officers of ECR..pdf" data-lang-en="Contact" data-lang-hi="संपर्क">Contact</a></li>
         </ul>
     </nav> 
 
+    
+    
     <section class="slideshow-container">
         <div class="mySlides fade">
-            <img src="train.jpg" alt="Train 1" class="banner-image">
+            <img src="img/danapur.jpg" alt="Train 1" class="banner-image">
         </div>
         <div class="mySlides fade">
             <img src="samastipur.avif" alt="Train 2" class="banner-image">
         </div>
         <div class="mySlides fade">
-            <img src="train.jpg" alt="Train 3" class="banner-image">
+            <img src="dhanabad.jpg" alt="Train 3" class="banner-image">
         </div>
         <div class="mySlides fade">
-            <img src="sonpur.jpeg" alt="Train 4" class="banner-image">
+            <img src="img/bg.webp" alt="Train 4" class="banner-image" >
         </div>
+
+        <div class="mySlides fade">
+            <img src="img/pt.deendayal.jpg" alt="Train 4" class="banner-image">
+        </div>
+
     </section>
 
     <section class="links">
-        <a href="#">E-Mail</a>
-        <a href="#">Schedule of Power</a>
-        <a href="#">SEROA</a>
-        <a href="#">SERPOA</a>
-        <a href="#">Safar-A Journey</a>
-        <a href="#">FOIS</a>
-        <a href="#">IPAS</a>
-        <!-- <a href="#">ICMS</a>
-        <a href="#">System Map</a>
+        <a href="https://email.gov.in/">E-Mail</a>
+        <a href="Model_SOP_2018.pdf">Schedule of Power</a>
+        <a href="https://er.indianrailways.gov.in/view_section.jsp?fontColor=black&backgroundColor=LIGHTSTEELBLUE&lang=0&id=0,1,261,395">PCSO</a>
+        <!-- <a href="#">SERPOA</a>
+        <a href="#">Safar-A Journey</a> -->
+        <a href="https://www.fois.indianrail.gov.in/RailSAHAY/pages/FNREnquiryIN.jsp">FOIS</a>
+        <a href="https://aims.indianrailways.gov.in/IPAS/LoginForms/Login.jsp">IPAS</a>
+        <a href="https://cris.org.in/loadpage?page=proICMS">ICMS</a>
+        <!-- <a href="#">System Map</a>
         <a href="#">Codes & Man</a>
         <a href="#">GST</a> -->
     </section>
@@ -88,11 +103,7 @@
         </div>
     </section>
 
-    <div class="tweets">
-        <a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/ECRlyHJP?ref_src=twsrc%5Etfw">Tweets by ECRlyHJP</a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    </div>
 
     <footer>
         <div class="footer-container">

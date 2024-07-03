@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+    align-self: flex-start;
+}
+
+.title h1{
+    margin: 0;
+    font-size: 1.5em;
+}
+.title h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.navbar {
+    text-align: right;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    
+}
+.left, .right {
+    width: 33%;
+    padding: 20px;
+}
+
+.left {
+    border-right: 2px solid black;
+}
+.left h3, .right h3 {
+    color: #0056b3;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.middle {
+justify-content: center;
+}

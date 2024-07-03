@@ -40,21 +40,40 @@
 project-directory/
 │
 ├── index.html # Home page
+|
 ├── about.html # About page
+|
 ├── services.html # Services page
+|
+|
 ├── contact.html # Contact page
+|
 ├── admin-login.html # Administration login page
+|
 ├── admin-panel.php # Admin panel page
+|
+|
 ├── css/
+|
 │ └── styles.css # CSS file for styling
+|
 ├── js/
+|
 │ └── script.js # JavaScript file for interactivity
+|
 ├── php/
+|
 │ ├── login.php # PHP script for login authentication
+|
 │ ├── add-admin.php # PHP script for adding new administrators
+|
 │ ├── edit-admin.php # PHP script for editing administrators
+|
+|
 │ └── delete-admin.php # PHP script for deleting administrators
+|
 └── db/
+|
 └── database.php # PHP script for database connection
 
 
@@ -71,3 +90,38 @@ project-directory/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/east-central-railway.git
+2. **Set Up the Database:
+
+    .Create a MySQL database.
+    .Import the SQL file (db/database.sql) to set up the necessary tables.
+   
+ 3. **Configure Database Connection:
+
+      . Update the php/database.php file with your database credentials.
+    
+ 4. **Run the Server:
+
+     . Ensure you have a local server setup (like XAMPP or WAMP).
+    .Place the project directory in the server's root directory.
+     .Access the website via your browser (e.g., http://localhost/east-central-railway).
+
+   ## Usage
+   
+ 1. **Navigate the Website:
+
+      . Use the navigation bar to explore different pages.
+    
+ 2.  **Administration Login:
+
+     . Access the login page via the Administration link in the navbar.
+   . Enter the credentials to log in.
+4. **Admin Panel:
+
+    . Add, edit, and delete administrators via the admin panel.
+    .  All changes are automatically updated in the database.
+
+
+  ## Contribution
+  
+   .Feel free to fork this project and submit pull requests. 
+      For major changes, please open an issue to discuss what you would like to change.

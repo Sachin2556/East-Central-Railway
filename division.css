@@ -1,0 +1,17 @@
+.division {
+    /* display: flex; Initially hide all divisions */
+    /* display: flex;
+    flex-direction: col;
+    align-items: center; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    /* Additional styling as needed */
+   background-color: rgb(139, 170, 217);
+}
+
+.divisions{
+   
+    
+
+}
